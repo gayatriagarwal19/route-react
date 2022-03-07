@@ -8,6 +8,7 @@ import img3 from './image3.png';
 import img4 from './image4.png';
 import img5 from './image5.png';
 import img6 from './image6.jpg';
+import img7 from './logo.png';
 
 
 
@@ -24,6 +25,7 @@ export default function Carou() {
             <div>
                 <Navbar bg="dark" variant="dark">
                     <Container className="nav-child">
+                        <img className="logo" src={img7} width="40px" alt="logo" />
                         <Navbar.Brand href="#home" className="nav-child">CCA</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
@@ -45,12 +47,12 @@ export default function Carou() {
             <div className="content">
                 <div className="jumbotron">
                     <div className="container">
-                        <h1 className="display-5">HI. MY NAME IS GAYATRI AGARWAL</h1>
+                        <h1 className="display-5">HI. MY NAME IS GAYATRI AGARWAL.</h1>
                     </div>
                 </div>
 
                 <div>
-                    <Carousel>
+                    <Carousel fade>
                         <Carousel.Item>
                             <img src={img2} className="d-block w-100" alt="First slide" />
                         </Carousel.Item>

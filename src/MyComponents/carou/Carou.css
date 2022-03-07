@@ -1,16 +1,27 @@
 .content{
-    border: red solid 2px;
+    border: red solid 3px;
     margin: 5px;
     background-color: burlywood;
+  }
+
+  .logo{
+    padding-right: 5px;
   }
   
   .jumbotron{
     background-color: antiquewhite;
+    box-shadow: 0 0 10px 8px #999;
+    border-radius: 10px;
     margin-top: 30px;
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 30px;
     padding: 50px;
+  }
+
+  .display-5{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
   }
   
   .carousel-item{
@@ -33,7 +44,7 @@
     margin-bottom: 100px;
   }
   
-  .modalBackgroung{
+  .modalBackground{
     padding: 50px;
   }
   
@@ -44,3 +55,4 @@
   .cancelBtn{
     background-color: darkgray;
   }
+

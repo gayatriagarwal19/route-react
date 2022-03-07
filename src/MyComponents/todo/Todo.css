@@ -2,20 +2,33 @@
     background-color: mediumseagreen ;
     box-shadow: 0 0 10px 8px #999;
     color: rgb(46, 56, 48);
-    width: 100%;
+    width: 50%;
     height: 170px;
     border-radius: 8px;
-  }
+    margin: 2% auto;
+    margin-bottom: 10px;
+}
+
+
   h1{
+
     margin: 0;
     padding: 10px;
     text-align: left;
+    font-weight: 600;
+    font-family: 'Lobster', cursive;
+    font-family: 'Satisfy', cursive;
+  }
+
+  .todo-logo{
+    padding-bottom: 10px;
   }
   
   .input-todo{
     text-align: center;
     margin-top: 10px;
     padding: 40px;
+    padding-bottom: 10px;
   }
   
   input{
@@ -39,10 +52,18 @@
     margin-left: 15px;
     cursor: pointer;
   }
+
+  .btn-todo:hover{
+    background-color: rgba(37, 59, 37, 0.856);
+    color: aquamarine;
+  }
   
   .todo-list{
     max-height: 210px;
     overflow: auto;
+    width: 50%;
+    margin: auto;
+    margin-top: 5px;
   }
   
   ol{

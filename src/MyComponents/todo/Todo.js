@@ -1,5 +1,6 @@
-import React, {useState} from 'react'
-import "./Todo.css"
+import React, {useState} from 'react';
+import "./Todo.css";
+import img from "./todo.png"
 
 const Todo = () => {
 
@@ -26,10 +27,13 @@ const Todo = () => {
   }
 
   return (
-    <>
+    <div className="outer-box">
       <div className="box">
         <div className="heading">
-          <h1>Add A New Todo</h1>
+          <h1>
+          <img className="todo-logo" src={img} width="50px" alt="todo"/>
+          Add A New Todo
+          </h1>
         </div>
         <div className="input-todo">
           <input type="text" name="todo" placeholder="Enter Todo" value={inputList} onChange={itemEvent} />
@@ -49,7 +53,7 @@ const Todo = () => {
             </div>
         </ol>
       </div>
-    </>
+    </div>
   );
 };
 
